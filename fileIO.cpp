@@ -4,8 +4,6 @@
 #include <iostream>
 #include <sstream>
 
-int addSum(int num1, int num2);
-
 int main(){
     
     //reading from a file
@@ -43,7 +41,7 @@ int main(){
         } // end for    
         
         std::cout << std::endl;
- 
+
     } // end while
 
     inFile.close();
@@ -52,6 +50,3 @@ int main(){
 
 } // end main
 
-int addSum(int num1, int num2){
-    return num1 + num2;
-}
